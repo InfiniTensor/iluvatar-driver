@@ -1,0 +1,16 @@
+[package]
+name = "runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+context-spore = "0.0"
+log = "0.4"
+half.workspace = true
+
+
+[build-dependencies]
+build-script-cfg.workspace = true
+search-iluvatar-tools = { version = "0.1.0", path = "../search-iluvatar-tools" }
+bindgen.workspace = true
+
